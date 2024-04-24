@@ -6,7 +6,7 @@ abstract class AeroPlane1 {
     int name;
 
     public abstract void fly();
-    //==> In Java, we can have method without body/implementation but that method must be an 'abstract' method.
+    //==> In Java, within a class, we can have method without body/implementation but that method must be an 'abstract' method.
     //==> If one method is 'abstract' in a class, then that class must be declared as 'abstract' class
     //==> Abstract class can have both concrete & abstract methods.
     //==> Abstract class can not be instantiated i.e, we cannot crate an Obj of abstract class.
