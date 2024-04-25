@@ -11,7 +11,9 @@ interface Calc {
 	//==> We can create interface type reference for implementing class objects/instance to
 	//-- achieve polymorphism and loos coupling
 	//==> We cannot instantiate or create object of an interfaces
-	//==> Interface can extend Interface
+	//==> Interface can extend another Interface
+
+	//==> Marker interface{} is empty interface no need implementation like Serializable
 	void add();
 
 	void sub();
