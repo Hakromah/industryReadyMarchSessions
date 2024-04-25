@@ -14,6 +14,8 @@ interface Alpha{
 	//==> default method of an interface will get inherited in all implementation classes but, it's not compulsory to be overridden
 	//==> we can all have static method with implementation/body in an interface but, it cannot be inherited in the implementing classes
 	//-> but it can be invoked using interface name.
+	//==> From Java 9 we can have "private" method in the interface but tey are accessible only within the same interface
+	//--> it will not be inherited in implementing classes and, it cannot be invoked outside the interface.
 }
 interface Calc1 {
 	int add();
