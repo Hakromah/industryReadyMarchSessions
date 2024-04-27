@@ -16,6 +16,12 @@ public class AnonymousImplement {
             }
         };
         beta.show();
+
+        int i =10;
+        if (i<6){
+            System.out.println(i);
+        }
+
     }
 
 }
