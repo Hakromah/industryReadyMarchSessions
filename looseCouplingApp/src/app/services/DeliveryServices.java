@@ -1,5 +1,5 @@
 package app.services;
 
-interface DeliveryServices {
+public interface DeliveryServices {
 	boolean deliverTheProduct(double amount);
 }
