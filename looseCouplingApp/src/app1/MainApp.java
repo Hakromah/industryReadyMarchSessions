@@ -1,8 +1,6 @@
-package app;
+package app1;
 
-import app.services.ArasKargo;
-import app.services.MNG;
-import app.services.YurtIciKargo;
+import app1.services.ArasKargo;
 
 public class MainApp {
 

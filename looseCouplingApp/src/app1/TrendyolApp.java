@@ -1,6 +1,6 @@
-package app;
+package app1;
 
-import app.services.DeliveryServices;
+import app1.services.DeliveryServices;
 
 public class TrendyolApp {
 

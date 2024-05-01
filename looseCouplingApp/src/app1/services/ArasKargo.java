@@ -1,4 +1,4 @@
-package app.services;
+package app1.services;
 
 public class ArasKargo implements DeliveryServices {
     @Override
