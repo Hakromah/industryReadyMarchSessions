@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IndustrayReadyJava/IndustrayReadyJava.iml" filepath="$PROJECT_DIR$/IndustrayReadyJava/IndustrayReadyJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MarchSessions/MarchSessions.iml" filepath="$PROJECT_DIR$/MarchSessions/MarchSessions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arraysInJava/arraysInJava.iml" filepath="$PROJECT_DIR$/arraysInJava/arraysInJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/industryReadyMarchSessions.iml" filepath="$PROJECT_DIR$/.idea/industryReadyMarchSessions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/looseCouplingApp/looseCouplingApp.iml" filepath="$PROJECT_DIR$/looseCouplingApp/looseCouplingApp.iml" />
+    </modules>
+  </component>
+</project>
