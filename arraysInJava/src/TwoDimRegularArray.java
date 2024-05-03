@@ -1,15 +1,16 @@
 import java.util.Scanner;
 
-public class ThreeDimensionalArray {
+public class TwoDimRegularArray {
     public static void main(String[] args) {
+
         Scanner scan = new Scanner(System.in);
 
-        // multiple arrays declaration
-        int[][] arr = new int[3][];// [3] will assign only length of classroom
-        arr[0] = new int[4]; // class [0] has [4] students
-        arr[1] = new int[5]; // class [1] has [5] students
-        arr[2] = new int[3]; // class [2] has [3] students
-
+        // 3 classrooms, & 4 students in each class
+        int[][] arr = new int[3][4];
+//        arr[2][1] = 55; // this will assign 55 to 2nd class student 2
+//        arr[0][3] = 45; // this will assign 45 to class 1 student 4
+//        System.out.println(arr.length);//3 classrooms
+//        System.out.println(arr[0].length);//4 students each
 
         for (int i = 0; i < arr.length; i++) {
 
