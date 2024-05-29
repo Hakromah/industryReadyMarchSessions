@@ -1,4 +1,4 @@
-package opps.statics;
+
 
 class Alpha {
     static int a;

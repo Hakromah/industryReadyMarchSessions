@@ -1,4 +1,4 @@
-package opps.statics;
+
 
 
 import java.util.Scanner;

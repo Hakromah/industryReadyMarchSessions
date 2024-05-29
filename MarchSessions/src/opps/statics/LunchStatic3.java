@@ -1,4 +1,4 @@
-package opps.statics;
+
 
 class Demo {
     //static variable memory will be allocated during the class loading in the heap area.
