@@ -63,5 +63,22 @@ public class StreamApiAssignment {
                 .filter(pf -> pf.getPrice() > 1000)
                 .forEach(pp -> System.out.println(pp));
 
+//ENHANCED LOOP
+//        //Let's Print only electronic products using enhanced for loop
+//        System.out.println("Electronic Products:");
+//        for (Product product : products) {
+//            if (product.getCategory() == Category.ELECTRONIC) {
+//                System.out.println(product);
+//            }
+//        }
+//
+//        //Let's Print only products with price more than 1000 using enhanced for loop
+//        System.out.println("\nProducts with Price more than 1000:");
+//        for (Product product : products) {
+//            if (product.getPrice() > 1000) {
+//                System.out.println(product);
+//            }
+//        }
+
     }
 }
