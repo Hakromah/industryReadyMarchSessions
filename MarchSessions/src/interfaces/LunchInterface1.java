@@ -9,7 +9,7 @@ interface Calc {
 	//==> Interface give the requirements/specification other classes can make the implementation
 	//==> One Interface can have any number of Implementing classes
 	//==> We can create interface type reference for implementing class objects/instance to
-	//-- achieve polymorphism and loos coupling
+	//-- achieve polymorphism and loosCoupling
 	//==> We cannot instantiate or create object of an interfaces
 	//==> Interface can extend another Interface
 
