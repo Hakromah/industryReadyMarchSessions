@@ -49,7 +49,7 @@ public class StreamApiAssignment {
         products.add(new Product(6, "Jeans", 20, Category.DRESS));
         products.add(new Product(7, "Table", 70, Category.RESIDENCE));
         products.add(new Product(8, "Computer", 1500, Category.ELECTRONIC));
-        products.add(new Product(9, "Bed", 300, Category.RESIDENCE));
+        products  .add(new Product(9, "Bed", 300, Category.RESIDENCE));
         products.add(new Product(10, "T-Shirt", 1500, Category.DRESS));
 
         System.out.println(" \n" + "1 ==> Print only Electronic products:" + " \n");
