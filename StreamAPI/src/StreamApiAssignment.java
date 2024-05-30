@@ -60,7 +60,7 @@ public class StreamApiAssignment {
 
         System.out.println("2 ==> Print only products with price more than 1000:" + " \n");
         products.stream()
-                .filter(pf -> pf.getPrice() > 1000)
+                .filter(fp -> fp.getPrice() > 1000)
                 .forEach(pp -> System.out.println(pp));
 
 //ENHANCED LOOP
