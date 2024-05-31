@@ -11,6 +11,7 @@ public class Countries {
 		);
 
 		// print the names where length > 5
+		System.out.println();
 		countries.stream()
 				.filter(coutry-> coutry.length() >5 )
 				.forEach(s -> System.out.println(s));
