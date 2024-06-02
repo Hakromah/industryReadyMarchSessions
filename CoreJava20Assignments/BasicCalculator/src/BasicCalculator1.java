@@ -51,6 +51,5 @@ public class BasicCalculator1 {
             case '%' -> System.out.println(STR."Remainder = \{num1 % num2}");
             default -> System.out.println("Invalid Operation");
         }
-
     }
 }
