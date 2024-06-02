@@ -20,7 +20,7 @@ class Alpha2 implements Runnable {
         System.out.println("Enter the password: ");
         int pass = sc.nextInt();
         System.out.println("Collect your cash...");
-        System.out.println("Banking Activity Ended...");
+        System.out.println("Banking Activity Ended");
     }
 }
 
@@ -61,7 +61,7 @@ class Gamma2 implements Runnable {
                 System.out.println("Exception Handled...");
             }
         }
-        System.out.println("Printing Important Quotes Ended...");
+        System.out.println("Printing Important Quotes Ended....");
     }
 }
 

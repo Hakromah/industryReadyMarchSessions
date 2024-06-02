@@ -9,7 +9,7 @@ public class SingleThread1 {
 
         //Thread.sleep(5000);
         //main method behind the seen there is alwayss Thread. in java has priority 5, but we can change it by using setPriority()
-        System.out.println("Application Started...");
+        System.out.println("Application Started..");
         Thread.sleep(5000);
 
         Thread thread = Thread.currentThread();

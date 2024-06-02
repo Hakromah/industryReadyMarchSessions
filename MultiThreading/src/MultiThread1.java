@@ -18,7 +18,7 @@ class Alpha1 extends Thread {
         int acc = sc.nextInt();
         System.out.println("Enter the password: ");
         int pass = sc.nextInt();
-        System.out.println("Collect your cash...");
+        System.out.println("Collect yours cash...");
         System.out.println("Banking Activity Ended...");
     }
 }
@@ -58,7 +58,7 @@ class Gamma1 extends Thread {
                 System.out.println("Exception Handled...");
             }
         }
-        System.out.println("Printing Important Quotes Ended...");
+        System.out.println("printing Important Quotes Ended...");
     }
 }
 

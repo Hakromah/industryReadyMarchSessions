@@ -18,7 +18,7 @@ class  Alpha4 implements  Runnable{
     public void printingImportantQuotes() {
         System.out.println("Printing Important Quotes Started...");
         for (int i = 0; i < 3; i++) {
-            System.out.println("Focus on your goals...");
+            System.out.println("Focus on yours goals...");
             try {
                 Thread.sleep(3000);
             } catch (Exception e) {

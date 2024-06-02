@@ -9,7 +9,7 @@ class MSWord extends Thread {
 
         } catch (InterruptedException e) {
 
-            System.out.println(" Error in typing");
+            System.out.println(" Error-in typing");
         }
     }
 

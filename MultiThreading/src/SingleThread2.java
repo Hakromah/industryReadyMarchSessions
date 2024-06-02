@@ -9,7 +9,7 @@ class Alpha {
         System.out.println("Enter the password: ");
         int pass = sc.nextInt();
         System.out.println("Collect your cash...");
-        System.out.println("Banking Activity Ended...");
+        System.out.println("Banking Activity Ended..");
     }
 }
 
