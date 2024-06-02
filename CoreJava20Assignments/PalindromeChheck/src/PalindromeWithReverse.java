@@ -14,7 +14,7 @@ public class PalindromeWithReverse {
             for (int i = length - 1; i >= 0; i--) {
                 reverseStr.append(input.charAt(i));
             }
-            System.out.println(" -> "+reverseStr);
+            System.out.println(" -> " + reverseStr);
 
             if (reverseStr.toString().equals(input)) {
                 System.out.println(input + " is a Palindrome String");
