@@ -11,6 +11,7 @@ class Alpha1 extends Thread {
         // The Thread class implements Runnable interface
         banking();
     }
+
     public void banking() {
         System.out.println("Banking Activity Started...");
         Scanner sc = new Scanner(System.in);
@@ -28,6 +29,7 @@ class Beta1 extends Thread {
     public void run() {
         printingStart();
     }
+
     public void printingStart() {
         System.out.println("Printing Activity Started...");
         for (int i = 0; i < 3; i++) {
@@ -48,6 +50,7 @@ class Gamma1 extends Thread {
     public void run() {
         printingImportantQuotes();
     }
+
     public void printingImportantQuotes() {
         System.out.println("Printing Important Quotes Started...");
         for (int i = 0; i < 3; i++) {
@@ -70,12 +73,27 @@ public class MultiThread1 {
         // we can create an object of Thread class as a Parent class.
         // the thread class method must be executed inside run() method.
 
+        // Let's apply join() method in threads (making the Tread to wait)
+        System.out.println("Main Thread is running...");
+
         Alpha1 thread1 = new Alpha1();
         Beta1 thread2 = new Beta1();
         Gamma1 thread3 = new Gamma1();
-        thread1.start();
+
         thread2.start();
         thread3.start();
+
+        try {
+            thread1.join();// making the main thread to wait
+            thread2.join();// making the main thread to wait
+            thread3.join();// making the main thread to wait
+
+            thread1.start(); // printing the cash will happen only apter all the other threads are finished
+        } catch (Exception e) {
+            System.out.println("Exception Handled...");
+        }
+        System.out.println("Main Thread finished the execution.");// finally main Thread will exit.
+
 
         //OR
 

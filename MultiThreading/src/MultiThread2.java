@@ -78,8 +78,17 @@ public class MultiThread2 {
         Thread t2 = new Thread(beta2);
         Thread t3 = new Thread(gamma2);
 
+        // Before starting the Threads they are not at live.
+        System.out.println(" Is Threads 1 at live? " + t1.isAlive());// false
+        System.out.println("Is Threads 2 at live? " + t2.isAlive()); // false
+        System.out.println("Is Threads 3 at live? " + t3.isAlive()); // false
+
         t1.start();
         t2.start();
         t3.start();
+        // After starting the Threads they are at live.
+        System.out.println(" Is Threads 1 at live? " + t1.isAlive());// true
+        System.out.println("Is Threads 2 at live? " + t2.isAlive()); // true
+        System.out.println("Is Threads 3 at live? " + t3.isAlive()); // true
     }
 }
