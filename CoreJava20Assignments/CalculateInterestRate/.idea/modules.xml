@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CoreJava20Assignments.iml" filepath="$PROJECT_DIR$/.idea/CoreJava20Assignments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalculateInterestRate.iml" filepath="$PROJECT_DIR$/CalculateInterestRate.iml" />
     </modules>
   </component>
 </project>

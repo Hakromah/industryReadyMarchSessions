@@ -5,14 +5,12 @@ class Resource implements Runnable {
                 System.out.println((char) i);
                 Thread.sleep(3000);
             }
-
             synchronized (this) {
                 for (int i = 0; i < 4; i++) {
                     System.out.println("*");
                     Thread.sleep(3000);
                 }
             }
-
         } catch (Exception e) {
             e.printStackTrace();
         }
