@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BasicCalculator/BasicCalculator.iml" filepath="$PROJECT_DIR$/BasicCalculator/BasicCalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CalculateInterestRate/CalculateInterestRate.iml" filepath="$PROJECT_DIR$/CalculateInterestRate/CalculateInterestRate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CarInheritance/CarInheritance.iml" filepath="$PROJECT_DIR$/CarInheritance/CarInheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CoreJava20Assignments.iml" filepath="$PROJECT_DIR$/.idea/CoreJava20Assignments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LibraryOperations/LibraryOperations.iml" filepath="$PROJECT_DIR$/LibraryOperations/LibraryOperations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PalindromeChheck/PalindromeChheck.iml" filepath="$PROJECT_DIR$/PalindromeChheck/PalindromeChheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RandomNumGame/RandomNumGame.iml" filepath="$PROJECT_DIR$/RandomNumGame/RandomNumGame.iml" />
+    </modules>
+  </component>
+</project>
