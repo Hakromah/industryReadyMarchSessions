@@ -30,7 +30,7 @@ class Books implements Runnable {
                 }
 
             } catch (Exception e) {
-                e.printStackTrace();
+                System.out.println("Exception: " + e);
             }
         } else {
             try {
@@ -50,14 +50,13 @@ class Books implements Runnable {
                 }
 
             } catch (Exception e) {
-                e.printStackTrace();
+                System.out.println("Exception: " + e);
             }
         }
     }
 }
 
 public class LunchThread9 {
-
     public static void main(String[] args) {
         Books bk = new Books();
 
