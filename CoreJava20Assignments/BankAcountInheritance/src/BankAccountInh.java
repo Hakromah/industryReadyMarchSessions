@@ -1,3 +1,5 @@
+import java.text.NumberFormat;
+
 abstract class BankAccount1 {
 
 	protected double balance;
@@ -28,7 +30,7 @@ class SavingAccount1 extends BankAccount1 {
 	void deposit(double amount) {
 		if (amount > 0) {
 			balance += amount + (amount * ((interest / 100) * duration));
-			System.out.println(amount + " is deposited successfully to saving account ☻☻☻");
+			System.out.println(NumberFormat.getCurrencyInstance().format(amount) + " is deposited successfully to saving account ☻☻☻");
 		} else {
 			System.out.println("Invalid deposit");
 		}
@@ -38,13 +40,13 @@ class SavingAccount1 extends BankAccount1 {
 	void withdrawal(double amount) {
 		if (amount > 0 && amount <= balance) {
 			balance -= amount;
-			System.out.println(amount + " amount withdrew successfully");
+			System.out.println(NumberFormat.getCurrencyInstance().format(amount) + " amount withdrew successfully");
 		}
 	}
 
 	@Override
 	void displayBalance() {
-		System.out.println("Saving balance: -> " + balance);
+		System.out.println("Saving balance: -> " + NumberFormat.getCurrencyInstance().format(balance));
 	}
 }
 
@@ -61,7 +63,7 @@ class CheckingAccount1 extends BankAccount1 {
 	void deposit(double amount) {
 		if (amount > 0) {
 			balance += amount;
-			System.out.println("$" + amount + " is deposited successfully to saving account ☻☻☻");
+			System.out.println(NumberFormat.getCurrencyInstance().format(amount) + " is deposited successfully to saving account ☻☻☻");
 		} else {
 			System.out.println("Invalid Deposit try again");
 		}
@@ -71,7 +73,7 @@ class CheckingAccount1 extends BankAccount1 {
 	void withdrawal(double amount) {
 		if (amount > 0 && amount <= balance + overdraftLimit) {
 			balance -= amount;
-			System.out.println(amount + " amount withdrew successfully");
+			System.out.println(NumberFormat.getCurrencyInstance().format(amount) + " amount withdrew successfully");
 		} else {
 			System.out.println("Invalid Withdrawal try again");
 		}
@@ -79,7 +81,7 @@ class CheckingAccount1 extends BankAccount1 {
 
 	@Override
 	void displayBalance() {
-		System.out.println("Checking Account balance: $" + balance);
+		System.out.println("Checking Account balance: " + NumberFormat.getCurrencyInstance().format(balance));
 	}
 }
 
