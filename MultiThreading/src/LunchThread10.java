@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 class MSWord extends Thread {
 
     public void run() {
@@ -20,7 +18,7 @@ class MSWord extends Thread {
                 Thread.sleep(4000);
             }
 
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
 
             System.out.println(" Error-in typing...");
         }
@@ -28,23 +26,23 @@ class MSWord extends Thread {
 
     public void spellCheck() {
         try {
-            for (; ; ) {
+            for (;;) {
                 System.out.println("Spell checking...");
                 Thread.sleep(4000);
             }
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             System.out.println(" Error in editing...");
         }
     }
 
     public void saving() {
         try {
-            for (; ; ) {
+            for (;;) {
                 System.out.println("Saving...");
                 Thread.sleep(4000);
             }
 
-        } catch (InterruptedException e) {
+        } catch (Exception e) {
             System.out.println(" Error in saving");
         }
     }
@@ -79,12 +77,15 @@ public class LunchThread10 {
 //        }
 
 
-        t1.setName("TYPE");
+        t1.setName("TYPE");// right now the priority is 5 but, we can setPriority()
         t2.setName("SPELL");
         t3.setName("SAVE");
 
         t2.setDaemon(true);// garbage collection at least it will execute one last time before JVM terminates.
         t3.setDaemon(true);// garbage collection
+        //setPriority()
+        t3.setPriority(3);// 1 to 10
+        t3.setPriority(4);// 1 to 10
 
         t1.start();
         t2.start();
