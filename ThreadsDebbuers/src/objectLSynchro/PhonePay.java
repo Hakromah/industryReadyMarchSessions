@@ -1,4 +1,4 @@
-package objectSynchro;
+package objectLSynchro;
 
 public class PhonePay extends Thread {
 
@@ -12,7 +12,6 @@ public class PhonePay extends Thread {
 
 //        UBABank uba = new UBABank(0); // this is composition approach
 //        uba.showBalance();
-
         uba.showBalance();
 
     }

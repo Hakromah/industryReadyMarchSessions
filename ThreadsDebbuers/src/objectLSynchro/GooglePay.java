@@ -1,4 +1,4 @@
-package objectSynchro;
+package objectLSynchro;
 
 public class GooglePay extends Thread {
 
