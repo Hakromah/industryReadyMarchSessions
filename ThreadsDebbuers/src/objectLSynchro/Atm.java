@@ -18,6 +18,7 @@ public class Atm extends Thread {
 		
 		System.out.println("Withdrawal");
 		uba.withdrawal(6000);
+		System.out.println("New Eclipse Installed and it looks like everything working fine!");
 
 	}
 }
