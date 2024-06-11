@@ -31,7 +31,7 @@ public class LunchSerDeserialization {
 
 		// we want to Serialize (make it a bite code for networking) this Employee object
 		try {
-			// to make the bite code more efficient and faster, we add BufferOutputStream
+			//to make the bite code more efficient and faster, we add BufferOutputStream
 //			FileOutputStream fos = new FileOutputStream("C:\\Users\\pc\\IO\\FileHandling\\java.txt");
 //			BufferedOutputStream bos = new BufferedOutputStream(fos);// for efficiency
 //			ObjectOutputStream oos = new ObjectOutputStream(bos);
