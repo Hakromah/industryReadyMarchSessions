@@ -13,8 +13,8 @@ public class DataPersistence1 {
 		*/
         //String path1 = "C:\\Users\\pc\\IO\\FileHandling\\java.txt";
         //String path2 = "C:\\Users\\pc\\IO\\telusko";
-        String path1 = "D:\\IO\\src\\java.txt";
-        String path2 = "D:\\IO\\telusko";
+        String path1 = "C:\\IO\\src\\java.txt";
+        String path2 = "C:\\IO\\telusko";
         try {
             File file1 = new File(path1);
             //System.out.println(file1.createNewFile());// if file exists, it will not create duplicate file
@@ -29,8 +29,8 @@ public class DataPersistence1 {
 
             //File file2 = new File("C:\\Users\\pc\\IO\\src\\teluskojava.txt");
             File file2 = new File("D:\\IO\\src");
-            System.out.println(file2.createNewFile());
-            String[] str = file1.list();
+            //System.out.println(file2.createNewFile());
+            String[] str = file2.list();
             int count = 0;
             for (String files : str) {
                 count++;
