@@ -2,10 +2,13 @@ package com.telusko.jdbclearning;
 
 import java.sql.*;
 
-public class LunchJdbcApp5 {
+public class AllCRUDin1JdbcApp5 {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-
+		//==> execute() method returns boolean value and
+		// we can do all the Crude Operations using execute() method
+		
+		
 		// Load and Register the Driver
 		Class.forName("com.mysql.cj.jdbc.Driver");
 
@@ -17,13 +20,18 @@ public class LunchJdbcApp5 {
 
 		// Creating statement
 		Statement statement = connect.createStatement();
-
-		String sql = "SELECT * FROM studentinfo";
-		// Execute query 
-		boolean status = statement.execute(sql);
+		
+		// execute query (returns boolean value) for All the CRUD Operations
+		
+		  String sql = "SELECT * FROM studentinfo";
+		//String sql = "INSERT INTO studentinfo(sname, sage, scity) VALUES('Ansou',19,'Ankara')";
+		//String sql = "UPDATE studentinfo set sage=15 where id=1";
+		//String sql = "DELETE FROM studentinfo WHERE id=3";
+		
+		boolean status = statement.execute(sql);//***!!!
 
 		if (status) {
-			
+		
 			// Select
 			System.out.println("If Block");
 			ResultSet rs = statement.getResultSet();
@@ -44,10 +52,6 @@ public class LunchJdbcApp5 {
 				System.out.println("Operation Successfull");
 			}
 		}
-
-		// Select
-
-		// process the result
 
 		// Close the resources
 		statement.close();

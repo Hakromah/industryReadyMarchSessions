@@ -6,7 +6,7 @@ import java.sql.*;
 public class LunchJdbcApp2 {
 
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
-		// Load and Register the Driver
+				// Load and Register the Driver
 				Class.forName("com.mysql.cj.jdbc.Driver");
 
 				// Establish the connection
@@ -21,6 +21,7 @@ public class LunchJdbcApp2 {
 				// UPDATE QUERY IN THE DATABASE
 				String sql = "UPDATE studentinfo SET sname = 'Fatumata' WHERE id=2";
 				int rowAffected = statement.executeUpdate(sql);
+				
 				// process the result
 				if (rowAffected == 0) {
 					System.out.println("Unable to Update data");
@@ -31,7 +32,6 @@ public class LunchJdbcApp2 {
 				// Close the resources
 				statement.cancel();
 				connect.close();
-
 	}
 
 }

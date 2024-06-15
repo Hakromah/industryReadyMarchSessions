@@ -16,7 +16,7 @@ public class LunchJdbcApp4 {
 		Connection connect = DriverManager.getConnection(url, username, password);
 
 		// Create statement
-		Statement statement = connect.createStatement();
+		Statement statement = connect.createStatement(); 
 
 		//Let's Delete the records from the database
 		
