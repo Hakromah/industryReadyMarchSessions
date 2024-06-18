@@ -15,13 +15,14 @@ public class LunchBatchUpdate {
 
 		try {
 
+
 			connect = JdbcUtil.getConnection();
 
 			String sql = "UPDATE studentinfo SET sage =? WHERE id = ?";
 			pStatement = connect.prepareStatement(sql);
 
 			pStatement.setInt(1, 44);
-			pStatement.setInt(2, 1);
+			pStatement.setInt(2,  1);
 			pStatement.addBatch();// addBatch()
 
 			pStatement.setInt(1, 55);
